@@ -1,0 +1,1 @@
+New-ItemProperty -Path "HKLM:\SOFTWARE\SOFTWARE\Policies\Microsoft\WindowsStore" -Name "RemoveWindowsStore" -Value 1 -PropertyType DWord -Force
